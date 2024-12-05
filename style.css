@@ -1,0 +1,198 @@
+.container{
+    display: block;
+    background: linear-gradient( #80d4ff,#80ffaa);
+   
+}
+    
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+   height: 50px;
+   width: 50px;
+   border-radius: 30px;
+   
+}
+#ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2px;
+    list-style-type: none; 
+    margin-top:15px;
+    margin-left: 800px;
+
+}
+li{
+    color: #595959;
+    padding-left: 5px;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+#button{
+    padding: 4px;
+    height: 35px;
+    width:100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 25px;
+    background-color:lightskyblue;
+    color: white;
+    font-size: small;
+    border: none;
+}
+#button:hover{
+    cursor: pointer;
+    color: black;
+    background-color:#99ff99;
+
+}
+#herodiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+#herodiv1{
+    width: 50%;
+    text-align: justify;
+    line-height: 18.5px;
+    margin-left: 5px;
+    
+}
+#img1{
+    margin-left: 30%;
+    width: 90%;
+    height: 250px;
+}
+#herobutton{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    width:100px;
+    font-size: smaller;
+    margin-left: 250px;
+    text-align: center;
+    
+}
+#containermain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+#webdev{
+    width: 33%;
+    text-align: center;
+    
+}
+#webdevimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+}
+#appdev{
+    width: 33%;
+    text-align: center;
+   
+}
+#appdevimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+}
+#design{
+    width: 33%;
+    text-align: center;
+    
+}
+#desimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+}
+.para{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 18.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cashcontainer{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+#basicdiv{
+    background: linear-gradient(#ff99ff,#ff4d94);
+    width: 50%;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+#professionaldiv{
+    background: linear-gradient(#ff99ff,#ff4d94);
+    width: 50%;
+    height: 250px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#pricingdetails{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+   font-size: medium;
+
+}
+.herobutto{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    width:100px;
+    font-size: smaller;
+    text-align: center;
+    
+}
+#footercontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background: linear-gradient(gray,white);
+    border-radius: 50px;
+}
+#footerdiv{
+    text-align: center;
+    padding-top: 30px;
+
+    
+}
+#productdiv{
+    text-align: center;
+
+}
+#linkdiv{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fp{
+
+    height: 20px;
+    border-radius: 50px;
+    width: 20px;
+   
+}
+
+
